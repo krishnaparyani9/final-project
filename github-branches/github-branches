@@ -1,0 +1,26 @@
+PS C:\Users\krish\final-project> 
+>> git branch -a
+>> 
+* bug-fix-revert
+  bug-fix-typo
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+PS C:\Users\krish\final-project> 
+>> git branch -a
+>> git status
+>> 
+* bug-fix-revert
+  bug-fix-typo
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+On branch bug-fix-revert
+Your branch is up to date with 'origin/bug-fix-revert'.
+
+nothing to commit, working tree clean
+PS C:\Users\krish\final-project> 
