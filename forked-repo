@@ -1,0 +1,13 @@
+
+Command:
+$response = Invoke-RestMethod -Uri "https://api.github.com/repos/krishnaparyani9/mcino-Introduction-to-Git-and-GitHub"
+[PSCustomObject]@{
+    fork = $response.fork
+    parent = $response.parent.full_name
+} | ConvertTo-Json
+
+Output:
+{
+    "fork": true,
+    "parent": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+}
