@@ -19,3 +19,5 @@ Author
 Student
 License
 This project is licensed under the Apache License 2.0.
+
+Copyright © 2023 XYZ, Inc.
